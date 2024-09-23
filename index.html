@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search With Dev</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search Dev browser or type a url">
+            <button id="searchButton">Search</button>
+            <div class="dropdown">
+                <button id="historyButton">History</button>
+                <div id="historyDropdown" class="dropdown-content">
+                    <ul id="searchHistory"></ul>
+                    <button id="clearHistoryButton">Clear All History</button>
+                </div>
+            </div>
+        </div>
+        <div id="photoResults" class="photo-grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
